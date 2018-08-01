@@ -1,7 +1,7 @@
 FROM henryc/python3-alpine:latest
 
-RUN apk add build-base python3-dev zeromq-dev && \
-    pip install jupyter && \
+RUN apk add --no-cache build-base python3-dev zeromq-dev && \
+    pip install  --no-cache-dir jupyter && \
     mkdir /root/notebooks
 
 COPY jupyter_notebook_config.py /root/.jupyter/

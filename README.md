@@ -2,6 +2,8 @@
 
 A minimal Python 3 Jupyter Notebook docker image with Alpine Linux
 
+[Docker Hub link](https://hub.docker.com/r/henryc/jupyter-alpine/)
+
 ## Usage
 
 ```
